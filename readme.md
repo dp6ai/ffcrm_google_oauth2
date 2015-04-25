@@ -16,4 +16,6 @@ Rails.application.config.middleware.use OmniAuth::Builder do
 end
 ```
 
+Currently only PostgreSQL database supported.
+
 This project rocks and uses MIT-LICENSE.
