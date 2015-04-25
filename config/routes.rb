@@ -1,2 +1,3 @@
-FfcrmGoogleOauth2::Engine.routes.draw do
+Rails.application.routes.draw do
+  get '/auth/:provider/callback', to: 'authentications#callback'
 end
