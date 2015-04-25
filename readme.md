@@ -3,7 +3,7 @@
 To use add the following to your Gemfile
 
 ```
-gem 'ffcrm_google_oauth2', git: "git@github.com:DmitriySalko/ffcrm_google_oauth2.git", branch: 'master'
+gem 'ffcrm_google_oauth2', git: "https://github.com/DmitriySalko/ffcrm_google_oauth2.git", branch: 'master'
 gem 'omniauth' 
 gem 'omniauth-google-oauth2'
 ```
