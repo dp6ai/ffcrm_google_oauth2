@@ -1,4 +1,4 @@
-# Google OAuth2 Support for FatFree CRM
+# Google OAuth2 support for FatFree CRM
 
 To use add the following to your Gemfile
 
