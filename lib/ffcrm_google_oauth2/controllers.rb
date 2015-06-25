@@ -2,7 +2,7 @@ AuthenticationsController.class_eval do
   def callback
     auth_hash = request.env["omniauth.auth"]
     email = auth_hash[:info][:email]
-    user = User.where("email ILIKE ?",email).first
+    user = User.where(User.arel_table[:email].matches(email)).first
     if user 
       unless user.suspended?
         Authentication.create(user,true) # true - remember me
