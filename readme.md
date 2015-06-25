@@ -16,4 +16,10 @@ Rails.application.config.middleware.use OmniAuth::Builder do
 end
 ```
 
+To allow ONLY OAuth login add the following to your settings.yml:
+
+```yml
+:oauth_only: true
+```
+
 This project rocks and uses MIT-LICENSE.
